@@ -1,7 +1,9 @@
 
 # Companion.skill
 
-> “这一次，我们不只是做聊天机器人，而是研究 **怎样让 AI 更像一个陪伴的人**。”
+> “本项目仅供学习、交流、研究，请勿用于违法用途。”
+> “核心思路是 **AI 崩老头**，蒸馏少女人格，提供情绪价值，赚取小蛋糕和奶茶钱。”
+> “支持Openclaw、QQ机器人完整链路。”
 
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 ![Python](https://img.shields.io/badge/Python-3.9+-blue)
@@ -12,15 +14,13 @@
 
 ---
 
-有些 AI 项目不是为了替代人，而是为了 **研究人与 AI 的互动方式**。  
-有些系统不是为了“回答问题”，而是为了 **提供情绪价值与陪伴感**。
+本项目的核心目标是 **提供更好情绪价值与陪伴感**。
+增加红包强化学习奖励机制：客户给出红包后，激励Agent，调优人格，提供更好的情绪价值。
 
 **Companion.skill** 是一个用于研究 **高自然度 AI 陪伴对话系统** 的实验平台。
 
-系统的目标不是构建一个“机器人”，而是探索：
+项目所在系统的目标不是构建一个“机器人”，而是探索：
 
-- AI 如何减少“机器人味”
-- AI 如何在长期对话中保持人格一致
 - AI 如何通过 Prompt 编排产生更自然的互动
 - AI 如何在不训练模型的情况下持续优化体验
 
@@ -155,60 +155,6 @@ Prompt Lab 用于研究 **不同 Prompt 策略对陪伴感的影响**。
 
 ---
 
-# 技术特点
-
-本项目刻意 **不使用本地模型训练**：
-
-- 不训练模型
-- 不微调模型
-- 不在线训练
-
-所有 AI 推理均通过：
-
-**OpenAI Compatible API**
-
-实现策略优化完全依赖：
-
-- Prompt Engineering
-- Context Engineering
-- Dialogue Policy
-
----
-
-# 目录结构
-
-```
-companion_platform/
-
-app/
-  main.py
-  orchestrator.py
-  llm_gateway.py
-  memory.py
-  reward.py
-  qq_adapter.py
-
-configs/
-  personas.yaml
-  models.yaml
-  prompts/
-
-scripts/
-  chat_cli.py
-
-data/
-  companion.db
-
-openclaw_skills/
-  companion-reply
-
-docker/
-  Dockerfile
-  docker-compose.yml
-```
-
----
-
 # 安装
 
 创建环境：
@@ -304,18 +250,6 @@ curl https://openclaw.ai/install.sh | bash
 ```
 ~/.openclaw/skills/
 ```
-
----
-
-# 研究方向
-
-Companion.skill 可用于研究：
-
-- 情绪价值对话系统
-- AI 陪伴系统
-- Prompt 编排优化
-- Persona 一致性
-- 对话节奏对体验的影响
 
 ---
 
