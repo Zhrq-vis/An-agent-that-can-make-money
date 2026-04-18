@@ -1,8 +1,10 @@
 
-# Companion.skill
+# Companion.skill（崩老头.skill）
 
 > “本项目仅供学习、交流、研究，请勿用于违法用途。”
+> 
 > “核心思路是 **AI 崩老头**，蒸馏少女人格，提供情绪价值，赚取小蛋糕和奶茶钱。”
+> 
 > “支持Openclaw、QQ机器人完整链路。”
 
 ![License](https://img.shields.io/badge/License-MIT-yellow)
