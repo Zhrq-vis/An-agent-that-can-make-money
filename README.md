@@ -1,5 +1,5 @@
 
-# Companion.skill（崩老头.skill）
+# Companion.skill（崩老头.skill）(持续完善中)
 
 > “本项目仅供学习、交流、研究，请勿用于违法用途。”
 > 
